@@ -4,7 +4,7 @@ import hashlib
 url = 'http://net.tsinghua.edu.cn/cgi-bin/do_login'
 
 origin_name='dpf13' #put your name here
-origin_pass='duan1234' #put your passwd here
+origin_pass='' #put your passwd here
 md5_pass=hashlib.md5(origin_pass).hexdigest()
 #print md5_pass
 #quit()
